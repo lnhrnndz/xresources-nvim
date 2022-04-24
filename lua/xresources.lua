@@ -197,7 +197,7 @@ function xresources.load_syntax()
       BufferTabPageFill = { fg=xresources.blue, bg=xresources.bg };
       BufferCurrentMod = { fg=xresources.blue, bg=xresources.bg };
       BufferInactiveMod = { fg=xresources.blue, bg=xresources.grey };
-      ColorColumn = {fg=xresources.none,bg=xresources.grey};
+      ColorColumn = {fg=xresources.fg,bg=xresources.grey};
       Conceal = {fg=xresources.grey,bg=xresources.none};
       CursorLineNr = {fg=xresources.blue};
       CursorIM = {fg=xresources.none,bg=xresources.none,style='reverse'};
@@ -213,7 +213,7 @@ function xresources.load_syntax()
       EndOfBuffer = {fg=xresources.bg,bg=xresources.none};
       ErrorMsg = {fg=xresources.red,bg=xresources.none,style='bold'};
       FoldColumn = {fg=xresources.fg,bg=xresources.bg};
-      Folded = {fg=xresources.grey,bg=xresources.grey};
+      Folded = {fg=xresources.fg,bg=xresources.grey};
       iCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
       IncSearch = {fg=xresources.grey,bg=xresources.yellow,style=xresources.none};
       lCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
@@ -230,8 +230,8 @@ function xresources.load_syntax()
       PmenuThumb = {fg=xresources.purple,bg=xresources.green};
       Question = {fg=xresources.yellow};
       QuickFixLine = {fg=xresources.purple,style='bold'};
-      StatusLine = {fg=xresources.grey,bg=xresources.grey,style=xresources.none};
-      StatusLineNC = {fg=xresources.grey,bg=xresources.grey,style=xresources.none};
+      StatusLine = {fg=xresources.fg,bg=xresources.grey,style=xresources.none};
+      StatusLineNC = {fg=xresources.fg,bg=xresources.grey,style=xresources.none};
       SpellBad = {fg=xresources.red,bg=xresources.none,style='undercurl'};
       SpellCap = {fg=xresources.blue,bg=xresources.none,style='undercurl'};
       SpellLocal = {fg=xresources.cyan,bg=xresources.none,style='undercurl'};
@@ -243,7 +243,7 @@ function xresources.load_syntax()
       Title = {fg=xresources.green,style='bold'};
       Terminal = {fg = xresources.fg,bg=xresources.bg};
       TabLineFill = {style=xresources.none};
-      VertSplit = {fg=xresources.grey,bg=xresources.grey};
+      VertSplit = {fg=xresources.fg,bg=xresources.grey};
       vCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
       WarningMsg = {fg=xresources.yellow,bg=xresources.none,style='bold'};
       Whitespace = {fg=xresources.grey};
