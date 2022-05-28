@@ -208,14 +208,14 @@ function xresources.load_syntax()
       DiffChange = {fg=xresources.bg,bg=xresources.yellow};
       DiffDelete = {fg=xresources.bg,bg=xresources.red};
       DiffText = {fg=xresources.bg,bg=xresources.fg};
-      Directory = {fg=xresources.grey,bg=xresources.none};
+      Directory = {fg=xresources.grey1,bg=xresources.none};
       debugBreakpoint = {fg=xresources.bg,bg=xresources.red};
       EndOfBuffer = {fg=xresources.bg,bg=xresources.none};
       ErrorMsg = {fg=xresources.red,bg=xresources.none,style='bold'};
       FoldColumn = {fg=xresources.fg,bg=xresources.bg};
-      Folded = {fg=xresources.fg,bg=xresources.grey};
+      Folded = {fg=xresources.fg,bg=xresources.grey1};
       iCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
-      IncSearch = {fg=xresources.grey,bg=xresources.yellow,style=xresources.none};
+      IncSearch = {fg=xresources.grey1,bg=xresources.yellow,style=xresources.none};
       lCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
       LineNr = {fg=xresources.grey1};
       ModeMsg = {fg=xresources.fg,bg=xresources.none,style='bold'};
@@ -225,7 +225,7 @@ function xresources.load_syntax()
       NonText = {fg=xresources.grey};
       Pmenu = {fg=xresources.fg,bg=xresources.grey};
       PmenuSel = {fg=xresources.grey,bg=xresources.blue};
-      PmenuSelBold = {fg=xresources.grey,g=xresources.blue};
+      PmenuSelBold = {fg=xresources.grey1,g=xresources.blue};
       PmenuSbar = {fg=xresources.none,bg=xresources.grey};
       PmenuThumb = {fg=xresources.purple,bg=xresources.green};
       Question = {fg=xresources.yellow};
@@ -238,7 +238,7 @@ function xresources.load_syntax()
       SpellRare = {fg=xresources.purple,bg=xresources.none,style = 'undercurl'};
       SignColumn = {fg=xresources.fg,bg=xresources.bg};
       Search = {fg=xresources.bg,bg=xresources.yellow};
-      SpecialKey = {fg=xresources.grey};
+      SpecialKey = {fg=xresources.grey1};
       TabLineSel = {bg=xresources.bg};
       Title = {fg=xresources.green,style='bold'};
       Terminal = {fg = xresources.fg,bg=xresources.bg};
@@ -246,7 +246,7 @@ function xresources.load_syntax()
       VertSplit = {fg=xresources.fg,bg=xresources.grey};
       vCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
       WarningMsg = {fg=xresources.yellow,bg=xresources.none,style='bold'};
-      Whitespace = {fg=xresources.grey};
+      Whitespace = {fg=xresources.grey1};
       WildMenu = {fg=xresources.fg,bg=xresources.green};
       Visual = {fg=xresources.none,bg=xresources.grey};
       VisualNOS = {fg=xresources.bg,bg=xresources.fg};
@@ -358,7 +358,7 @@ function xresources.load_plugin_syntax()
       -- ============
       -- Vim
       -- ============
-      vimCommentTitle = {fg=xresources.grey};
+      vimCommentTitle = {fg=xresources.grey1};
       vimLet = {fg=xresources.yellow};
       vimVar = {fg=xresources.cyan};
       vimFunction = {fg=xresources.purple};
@@ -385,18 +385,18 @@ function xresources.load_plugin_syntax()
       diffOldFile = {fg = xresources.yellow};
       diffNewFile = {fg = xresources.yellow};
       diffFile    = {fg = xresources.cyan};
-      diffLine    = {fg = xresources.grey};
+      diffLine    = {fg = xresources.grey1};
       diffIndexLine = {fg = xresources.purple};
       -- ========
       -- Commit
       -- ========
       gitcommitSummary = {fg = xresources.red};
-      gitcommitUntracked = {fg = xresources.grey};
-      gitcommitDiscarded = {fg = xresources.grey};
-      gitcommitSelected = { fg=xresources.grey};
-      gitcommitUnmerged = { fg=xresources.grey};
-      gitcommitOnBranch = { fg=xresources.grey};
-      gitcommitArrow  = {fg = xresources.grey};
+      gitcommitUntracked = {fg = xresources.grey1};
+      gitcommitDiscarded = {fg = xresources.grey1};
+      gitcommitSelected = { fg=xresources.grey1};
+      gitcommitUnmerged = { fg=xresources.grey1};
+      gitcommitOnBranch = { fg=xresources.grey1};
+      gitcommitArrow  = {fg = xresources.grey1};
       gitcommitFile  = {fg = xresources.green};
       --- ===========================================
       -- vista.vim
@@ -427,7 +427,7 @@ function xresources.load_plugin_syntax()
       DashboardShortCut = {fg=xresources.purple};
       DashboardHeader = {fg=xresources.yellow};
       DashboardCenter = {fg=xresources.blue};
-      DashboardFooter = {fg=xresources.grey};
+      DashboardFooter = {fg=xresources.grey1};
       -- =========================
       -- Neovim LSP
       -- =========================
