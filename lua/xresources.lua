@@ -208,7 +208,7 @@ function xresources.load_syntax()
       DiffChange = {fg=xresources.bg,bg=xresources.yellow};
       DiffDelete = {fg=xresources.bg,bg=xresources.red};
       DiffText = {fg=xresources.bg,bg=xresources.fg};
-      Directory = {fg=xresources.grey1,bg=xresources.none};
+      Directory = {fg=xresources.blue,bg=xresources.none};
       debugBreakpoint = {fg=xresources.bg,bg=xresources.red};
       EndOfBuffer = {fg=xresources.bg,bg=xresources.none};
       ErrorMsg = {fg=xresources.red,bg=xresources.none,style='bold'};
