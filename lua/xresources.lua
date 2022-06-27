@@ -243,7 +243,7 @@ function xresources.load_syntax()
       Title = {fg=xresources.green,style='bold'};
       Terminal = {fg = xresources.fg,bg=xresources.bg};
       TabLineFill = {style=xresources.none};
-      VertSplit = {fg=xresources.fg,bg=xresources.grey};
+      VertSplit = {fg=xresources.grey,bg=xresources.bg};
       vCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
       WarningMsg = {fg=xresources.yellow,bg=xresources.none,style='bold'};
       Whitespace = {fg=xresources.grey1};
